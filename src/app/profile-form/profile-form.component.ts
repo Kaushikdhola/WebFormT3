@@ -95,7 +95,7 @@ export class ProfileFormComponent{
             if (errorMessage) {
               this.toastr.error(errorMessage, 'Validation Error', {
                 positionClass: 'toast-top-right',
-                timeOut: 700,
+                timeOut: 1000,
               });
               errorDisplayed = true; 
             }
